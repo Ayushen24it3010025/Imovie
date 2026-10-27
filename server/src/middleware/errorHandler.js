@@ -63,4 +63,6 @@ class AppError extends Error {
   }
 }
 
-module.exports = { errorHandler, AppError };
+module.exports = errorHandler;
+module.exports.errorHandler = errorHandler;
+module.exports.AppError = AppError;

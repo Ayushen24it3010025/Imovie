@@ -46,4 +46,4 @@ const bookingLimiter = rateLimit({
   },
 });
 
-module.exports = { generalLimiter, authLimiter, bookingLimiter };
+module.exports = { generalLimiter, apiLimiter: generalLimiter, authLimiter, bookingLimiter };
