@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Outlet } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Outlet } from 'react-router-dom';
 import { ThemeProvider } from './context/ThemeContext';
 import { CityProvider } from './context/CityContext';
 import { AuthProvider } from './context/AuthContext';
